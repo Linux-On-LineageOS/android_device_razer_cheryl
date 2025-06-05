@@ -148,3 +148,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from proprietary files
 include vendor/razer/cheryl/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
