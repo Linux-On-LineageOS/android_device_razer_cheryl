@@ -402,3 +402,4 @@ PRODUCT_PACKAGES += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/razer/cheryl/cheryl-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
